@@ -1,5 +1,5 @@
 # vimrc
-Esta es la configuración de Vim que yo usoi,tratando de que se asemeje a 'sublime text'
+Esta es la configuración de Vim que yo uso,tratando de que se asemeje a 'sublime text'
 
 Para usarlo correctamente es necesario que se instale vundle:
 
