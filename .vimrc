@@ -72,7 +72,7 @@ syntax on
 set clipboard=unnamed
 
 set number
-set wrap!
+set wrap
 set showbreak=>>>
 set showmatch
 set hlsearch
@@ -103,7 +103,9 @@ set ruler
 set undolevels=1000
 set backspace=indent,eol,start
 
-set guifont=Monospace\ 12
+"set guifont=Monospace\ 10
+"set guifont=Courier\ New\ 10
+set guifont=Inconsolata\ 11
 
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar

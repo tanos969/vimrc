@@ -1,19 +1,16 @@
 # vimrc
-this is my vimrc, i try to use like sublime text, this works for me
+Esta es la configuración de Vim que yo usoi,tratando de que se asemeje a 'sublime text'
 
-to use vundle is necesary use the next:
+Para usarlo correctamente es necesario que se instale vundle:
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-after that u need to install plugins, open vim and in normal mode excecude this command:
+despues debemos instalar los pligins de la siguiente manerea
 
 :PluginInstall
 
-after install the plugins u need to activate YouCompleteMe using the nex command:
+para activar el plugin de YouCompleteMe usamos el siguiente comando
 
 cd .vim/bundle/YouCompleteMe
 
 ./install.sh
-
-for more information about pluing you search here  in github.com
-
