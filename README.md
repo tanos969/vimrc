@@ -5,7 +5,7 @@ Para usarlo correctamente es necesario que se instale vundle:
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-despues debemos instalar los pligins de la siguiente manerea
+despues debemos instalar los plugins de la siguiente manera
 
 :PluginInstall
 
