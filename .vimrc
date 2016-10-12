@@ -29,10 +29,13 @@ Plugin 'scrooloose/syntastic'
 Plugin 'nvie/vim-flake8'
 
 "solarized theme
-Plugin 'micha/vim-colors-solarized'
+"Plugin 'micha/vim-colors-solarized'
 
 "molokai theme
 "Plugin 'tomasr/molokai'
+
+"color theme gruvboxo
+Plugin 'morhetz/gruvbox'
 
 "tree
 Plugin 'scrooloose/nerdtree'
@@ -59,7 +62,8 @@ filetype plugin indent on    " required
 
 if has('gui_running')
   set background=dark
-  colorscheme solarized
+  "  colorscheme solarized
+  colorscheme gruvbox
 endif
 
 "colorscheme molokai
