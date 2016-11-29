@@ -24,18 +24,22 @@ Bundle 'Valloric/YouCompleteMe'
 
 "check syntax
 Plugin 'scrooloose/syntastic'
+" This does what it says on the tin. It will check your file on open too, not just on save.
+" You might not want this, so just leave it out if you don't.
+let g:syntastic_check_on_open=1
 
 "
 Plugin 'nvie/vim-flake8'
 
 "solarized theme
 "Plugin 'micha/vim-colors-solarized'
+Plugin 'altercation/vim-colors-solarized'
 
 "molokai theme
 "Plugin 'tomasr/molokai'
 
 "color theme gruvboxo
-Plugin 'morhetz/gruvbox'
+"Plugin 'morhetz/gruvbox'
 
 "tree
 Plugin 'scrooloose/nerdtree'
@@ -55,6 +59,17 @@ Plugin 'derekprior/vim-trimmer'
 
 "Plugin for indent lines
 Plugin 'yggdroot/indentline'
+"Plugin 'nathanaelkane/vim-indent-guides'
+
+"Color for Css
+Plugin 'ap/vim-css-color'
+
+"JavaScript bundle for vim, this bundle provides syntax highlighting and improved indentation.
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'pangloss/vim-javascript'
+
+"autocompleta parentesis
+Plugin 'Raimondi/delimitMate'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -62,15 +77,17 @@ filetype plugin indent on    " required
 
 if has('gui_running')
   set background=dark
-  "  colorscheme solarized
-  colorscheme gruvbox
+  colorscheme solarized
+  "colorscheme gruvbox
 endif
 
 "colorscheme molokai
 "let g:molokai = 1
 
 let python_highlight_all=1
+set t_Co=256
 syntax on
+syntax enable
 
 "clipboard
 set clipboard=unnamed
@@ -109,7 +126,8 @@ set backspace=indent,eol,start
 
 "set guifont=Monospace\ 10
 "set guifont=Courier\ New\ 10
-set guifont=Inconsolata\ 11
+"set guifont=Inconsolata\ 11
+set  guifont=Andale\ Mono\ 11
 
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
